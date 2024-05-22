@@ -21,7 +21,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   --tw-bg-opacity: 1;
-  background-color: rgb(23 27 46 / var(--tw-bg-opacity));
+  background-color: rgb(17 20 35 / var(--tw-bg-opacity));
   height: 100%;
   display: flex;
   justify-content: center;
