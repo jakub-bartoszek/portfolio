@@ -13,7 +13,7 @@ export const NavigationItem = ({ title, href }: NavigationItemProps) => {
  const pathname = usePathname();
 
  return (
-  <div className="group relative hidden md:flex justify-center">
+  <div className="group relative flex justify-center">
    <div />
    <div
     className={cn(
