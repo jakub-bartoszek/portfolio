@@ -17,7 +17,10 @@ export default function Home() {
     </div>
    </div>
    <div className="w-full h-full flex items-center justify-center">
-    Right side
+    <img
+     alt="technologies"
+     src="/images/technologies-logo.png"
+    />
    </div>
   </div>
  );
