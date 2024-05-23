@@ -17,7 +17,7 @@ export const NavigationItem = ({ title, href }: NavigationItemProps) => {
    <div />
    <div
     className={cn(
-     "absolute bottom-0 h-1 w-0 bg-white group-hover:w-full transition-all",
+     "absolute bottom-0 h-[3px] w-0 bg-white group-hover:w-full transition-all",
      pathname === href && "w-full"
     )}
    />
