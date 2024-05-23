@@ -1,10 +1,14 @@
+import { MobileToggle } from "../menu-toggle";
 import { NavigationItem } from "./navigation-item";
 
 export const Navigation = () => {
  return (
-  <div className="w-full flex justify-between py-4 px-6">
-   <div className="font-bold text-2xl">Jakub Bartoszek</div>
-   <div className="flex gap-12 items-center">
+  <div className="w-full flex justify-between p-4">
+   <div className="font-bold text-2xl flex items-center">
+    <MobileToggle />
+    Jakub Bartoszek
+   </div>
+   <div className="hidden md:flex gap-12 items-center">
     <NavigationItem
      title="Home"
      href="/home"
