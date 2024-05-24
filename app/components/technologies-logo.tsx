@@ -10,7 +10,7 @@ const TechnologiesLogo = () => {
    >
     <Image
      alt="Typescript"
-     src={`${prefix}/images/typescript.png`}
+     src={`${prefix}images/typescript.png`}
      layout="fill"
     />
    </div>
@@ -20,7 +20,7 @@ const TechnologiesLogo = () => {
    >
     <Image
      alt="React JS"
-     src={`${prefix}/images/reactjs.png`}
+     src={`${prefix}images/reactjs.png`}
      layout="fill"
     />
    </div>
@@ -31,7 +31,7 @@ const TechnologiesLogo = () => {
     <Image
      className="group-hover:drop-shadow-[0_0px_5px_#ffffff] transition duration-500"
      alt="Next JS"
-     src={`${prefix}/images/nextjs.png`}
+     src={`${prefix}images/nextjs.png`}
      layout="fill"
     />
    </div>
