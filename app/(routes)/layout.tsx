@@ -1,4 +1,4 @@
-import { Navigation } from "@/components/navigation/navigation";
+import { Navigation } from "components/navigation/navigation";
 
 const MainLayout = async ({ children }: { children: React.ReactNode }) => {
  return (

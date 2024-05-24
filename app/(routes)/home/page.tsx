@@ -1,4 +1,4 @@
-import TechnologiesLogo from "@/components/technologies-logo";
+import TechnologiesLogo from "components/technologies-logo";
 
 export default function Home() {
  return (
