@@ -1,4 +1,4 @@
-import Image from "next/image";
+import TechnologiesLogo from "@/components/technologies-logo";
 
 export default function Home() {
  return (
@@ -15,14 +15,7 @@ export default function Home() {
      </div>
     </div>
     <div className="w-full h-full flex items-center justify-center">
-     <div className="relative w-full h-full">
-      <Image
-       alt="technologies"
-       src="/images/technologies-logo.png"
-       layout="fill"
-       objectFit="contain"
-      />
-     </div>
+     <TechnologiesLogo />
     </div>
    </div>
    <div className="flex justify-start gap-16 mt-4 md:mt-8">
