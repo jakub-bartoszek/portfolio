@@ -19,9 +19,24 @@ export default function Home() {
     </div>
    </div>
    <div className="flex justify-start gap-16 mt-4 md:mt-8">
-    <span>Github</span>
-    <span>LinkedIn</span>
-    <span>Facebook</span>
+    <a
+     href="https://github.com/jakub-bartoszek"
+     target="_blank"
+    >
+     Github
+    </a>
+    <a
+     href="https://www.linkedin.com/in/jbartoszek-dev/"
+     target="_blank"
+    >
+     LinkedIn
+    </a>
+    <a
+     href="https://www.facebook.com/profile.php?id=61554246347111"
+     target="_blank"
+    >
+     Facebook
+    </a>
    </div>
   </div>
  );

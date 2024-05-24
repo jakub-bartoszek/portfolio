@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { prefix } from "prefix";
 
 const TechnologiesLogo = () => {
  return (
@@ -9,7 +10,7 @@ const TechnologiesLogo = () => {
    >
     <Image
      alt="Typescript"
-     src="https://i.postimg.cc/qv4zbDF4/typescript.png"
+     src={`${prefix}/images/typescript.png`}
      layout="fill"
     />
    </div>
@@ -19,7 +20,7 @@ const TechnologiesLogo = () => {
    >
     <Image
      alt="React JS"
-     src="https://i.postimg.cc/3JgkZQnt/reactjs.png"
+     src={`${prefix}/images/reactjs.png`}
      layout="fill"
     />
    </div>
@@ -30,7 +31,7 @@ const TechnologiesLogo = () => {
     <Image
      className="group-hover:drop-shadow-[0_0px_5px_#ffffff] transition duration-500"
      alt="Next JS"
-     src="https://i.postimg.cc/J4wyJzcy/nextjs.png"
+     src={`${prefix}/images/nextjs.png`}
      layout="fill"
     />
    </div>
