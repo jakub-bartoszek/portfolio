@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface SocialMediaLinkProps {
  href: string;
@@ -8,7 +9,7 @@ interface SocialMediaLinkProps {
 
 const SocialMediaLink = ({ href, src, name }: SocialMediaLinkProps) => {
  return (
-  <a
+  <Link
    className="flex items-center gap-2 hover:drop-shadow-[0_0_5px_#fff] transition duration-500"
    href={href}
    target="_blank"
@@ -20,7 +21,7 @@ const SocialMediaLink = ({ href, src, name }: SocialMediaLinkProps) => {
     alt={name}
    />
    {name}
-  </a>
+  </Link>
  );
 };
 
