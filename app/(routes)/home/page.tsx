@@ -1,4 +1,6 @@
+import SocialMediaLink from "components/social-media-link";
 import TechnologiesLogo from "components/technologies-logo";
+import { prefix } from "prefix";
 
 export default function Home() {
  return (
@@ -19,24 +21,21 @@ export default function Home() {
     </div>
    </div>
    <div className="flex justify-start gap-16 mt-4 md:mt-8">
-    <a
+    <SocialMediaLink
      href="https://github.com/jakub-bartoszek"
-     target="_blank"
-    >
-     Github
-    </a>
-    <a
+     src={`${prefix}icons/github.svg`}
+     name="Github"
+    />
+    <SocialMediaLink
      href="https://www.linkedin.com/in/jbartoszek-dev/"
-     target="_blank"
-    >
-     LinkedIn
-    </a>
-    <a
+     src={`${prefix}icons/linkedin.svg`}
+     name="Linkedin"
+    />
+    <SocialMediaLink
      href="https://www.facebook.com/profile.php?id=61554246347111"
-     target="_blank"
-    >
-     Facebook
-    </a>
+     src={`${prefix}icons/facebook.svg`}
+     name="Facebook"
+    />
    </div>
   </div>
  );
