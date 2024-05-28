@@ -3,15 +3,20 @@ import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import TechnologiesLogo from "components/technologies-logo";
+import ContactForm from "components/contact-form";
 
 export default function Contact() {
+ const serviceKey = process.env.EMAIL_JS_SERVICE;
+ const templateKey = process.env.EMAIL_JS_TEMPLATE;
+ const userKey = process.env.EMAIL_JS_USER;
+
  return (
   <div className="w-full h-full flex flex-col md:flex-row">
-   <div className="w-full flex flex-col justify-center gap-16">
-    <span className="font-bold text-5xl md:text-7xl text-[#9b9bed]">
-     Contact Me
-    </span>
-    <div className="flex flex-col gap-4 text-2xl">
+   <div className="w-full flex flex-col justify-around gap-16">
+    <div>
+     <span className="font-bold text-5xl md:text-7xl text-[#9b9bed]">
+      Contact Me
+     </span>
      <p className="text-lg md:text-xl">
       I am always open to discussing web development work or partnership
       opportunities. Feel free to reach out to me through any of the following
@@ -64,33 +69,12 @@ export default function Contact() {
        </Link>
       </li>
      </ul>
-     <p className="text-lg md:text-xl mt-4">
-      Alternatively, you can fill out the form below to send me a direct
-      message:
-     </p>
-     <form className="text-lg flex flex-col gap-4 mt-4">
-      <input
-       type="text"
-       placeholder="Your Name"
-       className="p-2 rounded border border-gray-300"
-      />
-      <input
-       type="email"
-       placeholder="Your Email"
-       className="p-2 rounded border border-gray-300"
-      />
-      <textarea
-       placeholder="Your Message"
-       className="p-2 rounded border border-gray-300 min-h-12 h-32"
-      />
-      <button
-       type="submit"
-       className="p-4 rounded bg-[#6753da] text-white font-bold hover:bg-[#5136ed] transition-colors"
-      >
-       Send Message
-      </button>
-     </form>
     </div>
+    <ContactForm
+     serviceKey={serviceKey}
+     templateKey={templateKey}
+     userKey={userKey}
+    />
    </div>
    <div className="w-full flex items-center justify-center">
     <TechnologiesLogo />
