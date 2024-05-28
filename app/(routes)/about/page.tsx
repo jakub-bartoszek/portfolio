@@ -53,7 +53,7 @@ export default function About() {
      </p>
      <p className="text-lg md:text-xl mt-4">
       When I am not programming, I spend time playing guitar, going to the gym,
-      making music, creating graphic designs, and working on my car. I also
+      making music, reading books, creating graphic designs, and working on my car. I also
       enjoy spending time outdoors and love going for walks.
      </p>
     </div>
