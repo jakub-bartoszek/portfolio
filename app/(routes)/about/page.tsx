@@ -1,5 +1,5 @@
-import TechnologiesLogo from "components/technologies-logo";
 import Link from "next/link";
+import TechnologiesLogo from "components/technologies-logo";
 
 export default function About() {
  return (
