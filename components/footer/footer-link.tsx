@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-interface SocialMediaLinkProps {
+interface FooterLinkProps {
  href: string;
  src: string;
  name: string;
 }
 
-const SocialMediaLink = ({ href, src, name }: SocialMediaLinkProps) => {
+const FooterLink = ({ href, src, name }: FooterLinkProps) => {
  return (
   <Link
    className="flex items-center gap-2 hover:drop-shadow-[0_0_5px_#fff] transition duration-500"
@@ -25,4 +25,4 @@ const SocialMediaLink = ({ href, src, name }: SocialMediaLinkProps) => {
  );
 };
 
-export default SocialMediaLink;
+export default FooterLink;
