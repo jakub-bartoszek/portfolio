@@ -58,11 +58,10 @@ const ContactForm = ({
        Please try again.
       </p>
      </div>
-     <TriangleAlert className="h-52 w-52 text-[#5136ed] mb-4" />
+     <TriangleAlert className="h-48 w-48 text-[#5136ed] mb-4" />
      <button
       onClick={resetForm}
-      className="px-6 py-3 rounded bg-[#9b9bed] text-[#111423] font-bold
-      hover:bg-[#5136ed] hover:text-white transition"
+      className="p-4 m-auto rounded bg-[#5136ed]/60 text-white font-bold transition-all hover:bg-[#5136ed]"
      >
       Try Again
      </button>
@@ -78,11 +77,10 @@ const ContactForm = ({
        I will respond as fast as possible.
       </p>
      </div>
-     <Mail className="h-52 w-52 text-[#5136ed]" />
+     <Mail className="h-48 w-48 text-[#5136ed]" />
      <button
       onClick={resetForm}
-      className="px-6 py-3 rounded bg-[#9b9bed] text-[#111423] font-bold
-      hover:bg-[#5136ed] hover:text-white transition"
+      className="p-4 m-auto rounded bg-[#5136ed]/60 text-white font-bold transition-all hover:bg-[#5136ed]"
      >
       Send another message
      </button>
@@ -95,7 +93,7 @@ const ContactForm = ({
       message:
      </p>
      <form
-      className="flex flex-col gap-4 text-black"
+      className="flex flex-col gap-4"
       onSubmit={onFormSubmit}
      >
       <input
@@ -103,26 +101,26 @@ const ContactForm = ({
        onChange={(e) => setName(e.target.value)}
        type="text"
        placeholder="Your Name"
-       className="p-2 rounded"
+       className="p-2 rounded bg-[#5136ed]/5 border-2 border-[#5136ed]/30"
       />
       <input
        value={email}
        onChange={(e) => setEmail(e.target.value)}
        type="email"
        placeholder="Your Email"
-       className="p-2 rounded"
+       className="p-2 rounded bg-[#5136ed]/5 border-2 border-[#5136ed]/30"
       />
       <textarea
        value={message}
        onChange={(e) => setMessage(e.target.value)}
        placeholder="Your Message"
-       className="p-2 rounded"
+       className="p-2 rounded bg-[#5136ed]/5 border-2 border-[#5136ed]/30"
       />
       <button
        disabled={!name || !email || !message}
        type="submit"
-       className="p-4 w-full m-auto rounded bg-[#6753da] text-white font-bold transition-all
-       hover:bg-[#5136ed] disabled:w-48 disabled:bg-slate-500 disabled:cursor-not-allowed"
+       className="p-4 w-full m-auto rounded bg-[#5136ed]/60 text-white font-bold transition-all
+       hover:bg-[#5136ed] disabled:w-48 disabled:bg-slate-600 disabled:cursor-not-allowed"
       >
        Send Message
       </button>
