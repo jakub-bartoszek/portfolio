@@ -6,7 +6,7 @@ import LinkedinIcon from "components/icons/linkedin-icon";
 export const Footer = () => {
  return (
   <footer className="w-full">
-   <div className="flex w-full justify-around p-6 md:pr-0 md:w-1/2 md:justify-between">
+   <div className="flex w-full justify-between p-6 md:pr-0 md:w-1/2">
     <FooterLink
      href="https://github.com/jakub-bartoszek"
      icon={<GithubIcon />}
