@@ -1,8 +1,9 @@
 "use client";
 
 import useRepositories from "hooks/useRepositories";
-import { RepositoryTile } from "components/repository-tile";
 import { Loader2 } from "lucide-react";
+import { RepositoryTile } from "components/repository-tile";
+import GithubIcon from "components/icons/github-icon";
 
 export default function Projects() {
  const { repositories, loading, error } = useRepositories();
@@ -29,7 +30,13 @@ export default function Projects() {
  };
 
  return (
-  <div className="flex h-full items-center justify-center">
+  <div className="flex flex-col h-full items-center justify-center gap-8">
+   <h1 className="font-bold text-5xl md:text-7xl text-[#9b9bed]">
+    My projects
+   </h1>
+   <div className="w-24 h-24 text-[#5136ed]">
+    <GithubIcon />
+   </div>
    {renderContent()}
   </div>
  );
