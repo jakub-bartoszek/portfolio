@@ -20,6 +20,9 @@ const ContactForm = ({
  const [message, setMessage] = useState("");
  const [formStatus, setFormStatus] = useState("");
 
+ console.log(serviceKey, templateKey, userKey);
+
+
  const onFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
   setFormStatus("loading");
