@@ -18,25 +18,27 @@ export default function Projects() {
   }
 
   return (
-   <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-4">
-    {repositories.map((repository) => (
-     <RepositoryTile
-      key={repository.id}
-      repository={repository}
-     />
-    ))}
-   </div>
+   <>
+    <h1 className="font-bold text-5xl md:text-7xl text-[#9b9bed]">
+     My projects
+    </h1>
+    <div className="w-24 h-24 text-[#5136ed]/50">
+     <GithubIcon />
+    </div>
+    <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-4">
+     {repositories.map((repository) => (
+      <RepositoryTile
+       key={repository.id}
+       repository={repository}
+      />
+     ))}
+    </div>
+   </>
   );
  };
 
  return (
   <div className="flex flex-col h-full items-center justify-center gap-8">
-   <h1 className="font-bold text-5xl md:text-7xl text-[#9b9bed]">
-    My projects
-   </h1>
-   <div className="w-24 h-24 text-[#5136ed]">
-    <GithubIcon />
-   </div>
    {renderContent()}
   </div>
  );
