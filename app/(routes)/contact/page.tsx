@@ -12,7 +12,7 @@ export default function Contact() {
 
  return (
   <div className="w-full h-full flex flex-col md:flex-row">
-   <div className="flex flex-col gap-8">
+   <div className="w-full flex flex-col gap-8">
     <h1 className="font-bold text-5xl md:text-7xl text-[#9b9bed]">
      Contact Me
     </h1>
