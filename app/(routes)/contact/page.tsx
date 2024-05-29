@@ -1,9 +1,9 @@
-import { prefix } from "prefix";
 import { Mail, Phone } from "lucide-react";
-import Image from "next/image";
 import TechnologiesLogo from "components/technologies-logo";
 import ContactForm from "components/contact/contact-form";
 import ContactItem from "components/contact/contact-item";
+import GithubIcon from "components/icons/github-icon";
+import LinkedinIcon from "components/icons/linkedin-icon";
 
 export default function Contact() {
  const serviceKey = process.env.EMAIL_JS_SERVICE;
@@ -22,9 +22,9 @@ export default function Contact() {
       opportunities. Feel free to reach out to me through any of the following
       contact options:
      </p>
-     <ul>
+     <ul className="flex flex-col gap-2">
       <ContactItem
-       icon={<Phone className="h-6 w-6" />}
+       icon={<Phone />}
        text="+48 530 936 096"
        href="tel:530-936-096"
       />
@@ -35,24 +35,18 @@ export default function Contact() {
       />
       <ContactItem
        icon={
-        <Image
-         src={`${prefix}icons/linkedin.svg`}
-         alt="Linkedin"
-         width={24}
-         height={24}
-        />
+        <div className="w-6 h-6">
+         <LinkedinIcon />
+        </div>
        }
        text="linkedin.com/in/jakub-bartoszek"
        href="https://www.linkedin.com/in/jakub-bartoszek"
       />
       <ContactItem
        icon={
-        <Image
-         src={`${prefix}icons/github.svg`}
-         alt="Github"
-         width={24}
-         height={24}
-        />
+        <div className="w-6 h-6">
+         <GithubIcon />
+        </div>
        }
        text="github.com/jakub-bartoszek"
        href="https://www.github.com/jakub-bartoszek"

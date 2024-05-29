@@ -1,26 +1,22 @@
-import Image from "next/image";
 import Link from "next/link";
 
 interface FooterLinkProps {
  href: string;
- src: string;
+ icon: React.ReactNode;
  name: string;
 }
 
-const FooterLink = ({ href, src, name }: FooterLinkProps) => {
+const FooterLink = ({ href, icon, name }: FooterLinkProps) => {
  return (
   <Link
    className="flex items-center gap-2 hover:drop-shadow-[0_0_5px_#fff] transition duration-500"
    href={href}
    target="_blank"
   >
-   <Image
-    width="24"
-    height="24"
-    src={src}
-    alt={name}
-   />
-   {name}
+   <div className="w-4 h-4 flex justify-center items-center">
+    {icon}
+   </div>
+   <span>{name}</span>
   </Link>
  );
 };
