@@ -89,45 +89,45 @@ const ContactForm = ({
     </div>
    )}
    {!formStatus && (
-    <>
-     <p className="text-lg md:text-xl mt-4 text-center">
+    <div className="flex flex-col gap-4">
+     <p className="text-lg">
       Alternatively, you can fill out the form below to send me a direct
       message:
      </p>
      <form
+      className="flex flex-col gap-4 text-black"
       onSubmit={onFormSubmit}
-      className="text-lg flex flex-col gap-4 mt-4 text-black"
      >
       <input
        value={name}
        onChange={(e) => setName(e.target.value)}
        type="text"
        placeholder="Your Name"
-       className="p-2 rounded border border-gray-300"
+       className="p-2 rounded"
       />
       <input
        value={email}
        onChange={(e) => setEmail(e.target.value)}
        type="email"
        placeholder="Your Email"
-       className="p-2 rounded border border-gray-300"
+       className="p-2 rounded"
       />
       <textarea
        value={message}
        onChange={(e) => setMessage(e.target.value)}
        placeholder="Your Message"
-       className="p-2 rounded border border-gray-300 min-h-12 h-32"
+       className="p-2 rounded"
       />
       <button
        disabled={!name || !email || !message}
        type="submit"
        className="p-4 w-full m-auto rounded bg-[#6753da] text-white font-bold transition-all
-       hover:bg-[#5136ed] disabled:w-52 disabled:bg-slate-500 disabled:cursor-not-allowed"
+       hover:bg-[#5136ed] disabled:w-48 disabled:bg-slate-500 disabled:cursor-not-allowed"
       >
        Send Message
       </button>
      </form>
-    </>
+    </div>
    )}
   </div>
  );
