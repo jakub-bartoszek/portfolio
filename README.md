@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio
 
-## Getting Started
 
-First, run the development server:
+## About
+Welcome to my portfolio page! I'm Jakub Bartoszek, a young **web developer** with a passion for **frontend** development and a growing interest in **full-stack** development. Here's a little about me:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I have 3 years of experience with **JavaScript**, specializing in **React.js**.
+Recently, I've been diving into **Next.js** to enhance my skills further.
+I'm constantly learning and expanding my knowledge base to stay current with new technologies and libraries.
+Education & Experience
+Graduated from IT technician school with **INF.02** and **INF.03** qualifications.
+Completed the **YouCode** course, including a 4-week group project focused on web development.
+Comfortable working both independently and collaboratively, always eager to share ideas and learn from others.
+Interests
+When I'm not coding, you can find me:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Playing guitar 🎸
+- Working out at the gym 💪
+- Making music 🎶
+- Reading books 📚
+- Creating graphic designs 🎨
+- Tinkering with my car 🚗
+- Enjoying nature with walks and outdoor activities 🌳
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Skills
+### Frontend Technologies
+- React.js
+- Next.js
+- JavaScript (ESNext)
+- TypeScript
+- React Hooks
+- React Router
+- Styled Components
+- Tailwind CSS
+- SASS
+- CSS BEM Convention
+- CSS Grid
+- CSS Flexbox
+### Backend Technologies
+- Express.js
+- Node.js
+- Data Management
+- Working with APIs (fetch, axios)
+- Promises, Async/Await
+- Error Handling
+- Database Management (MySQL, Tanstack Query)
+### Testing & Quality Assurance
+- Cypress
+- Jest
+- Debounce/Throttle
+- Version Control & Project Management
+- Git
+- GitHub Pull Requests & Review
+- Trello
+- Scrum
+- NPM
+### Design Tools
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe InDesign
+### Other Skills
+- Teamwork
+- Markdown
+- Semantic & Accessible HTML
+- Responsive Web Design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Projects
+Here are some of the projects showcased on my portfolio page:
 
-## Learn More
+- **About-me** - Virtual resume with skills, repositories, and contact information.
+- **Buyme** - User-friendly e-commerce frontend website.
+- **Calculator** - Simple calculator with modern design.
+- **Discord-clone** - Discord inspired platform for creating servers and chatting.
+- **Groovy** - Spotify clone with music player and search functionalities.
+- **Movie-browser** - Group project for browsing movies.
+- **Moviero** - Modern movie browser with search and details.
+- **Tag-search** - Search functionality with tags.
+- **TaskList** - App for managing tasks.
+- **Veabord** - (Description of Veabord project)
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
+I'm always open to discussing web development work or partnership opportunities. Feel free to reach out to me via:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Phone:** +48 530 936 096
+- **Email:** jakub.bartoszek.dev@gmail.com
+- **LinkedIn:** jakub-bartoszek
+- **GitHub:** jakub-bartoszek
+  
+Or you can use the contact form on my portfolio page to send me a direct message to my email.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
