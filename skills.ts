@@ -18,7 +18,7 @@ export const skills = [
  },
  {
   section: "State Management",
-  skills: ["Redux-Saga", "Redux (Toolkit)", "Signal"]
+  skills: ["Redux", "Saga", "Signal"]
  },
  {
   section: "Backend Technologies",
