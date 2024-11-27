@@ -9,20 +9,22 @@ export default function About() {
     <div className="flex flex-col gap-4 text-lg md:text-xl">
      <p>
       I am
-      <span className="text-[#9B9BED]">&nbsp;Jakub Bartoszek</span>, a young web
-      developer with a focus on frontend development, although I consider myself
-      a full-stack developer. I have been using JavaScript for 3 years now,
-      specializing in React. Recently, I have been programming in Next.js. I am
-      consistent with programming and continuously strive to improve my skills
-      by learning new technologies and libraries. I have completed several
-      interesting projects, which you can see on my
+      <span className="text-[#9B9BED]">&nbsp;Jakub Bartoszek</span>, a
+      full-stack web developer with extensive experience in React and Next.js,
+      and a strong focus on TypeScript. Recently, I’ve also expanded my skillset
+      to include Angular. Over the years, I’ve developed a deep passion for web
+      development, continually refining my skills and exploring new
+      technologies. I recently worked on a project for MediaBliss, where I took
+      full responsibility for both the frontend and backend of their website. In
+      addition to development, I also contributed to graphic design for the
+      brand. You can find some of my work on my
       <Link
        className="text-[#9B9BED]"
        href="https://github.com/jakub-bartoszek"
       >
        &nbsp;GitHub&nbsp;
       </Link>
-      or in
+      or in the
       <Link
        className="text-[#9B9BED]"
        href="/projects"
@@ -32,22 +34,22 @@ export default function About() {
       .
      </p>
      <p>
-      I finished IT technician school and hold the
+      I graduated from IT technician school, holding the
       <span className="text-[#c3a0ff]">&nbsp;INF.02&nbsp;</span>
       and
       <span className="text-[#c3a0ff]">&nbsp;INF.03&nbsp;</span>
-      qualifications. I fell in love with programming since my first lesson with
-      JavaScript and have been dedicated to it ever since. I also completed the
+      qualifications. My passion for programming began with my first lesson in
+      JavaScript, and I’ve been fully dedicated to it ever since. Additionally,
+      I completed the
       <Link
        className="text-[#9B9BED]"
        href={"https://youcode.pl/"}
       >
        &nbsp;YouCode&nbsp;
       </Link>
-      course and participated in a 4-week group project to deliver a web browser
-      application with my team. While I often work alone, I am very comfortable
-      working with others, enjoying the sharing of ideas and learning new things
-      from my peers.
+      course, where I collaborated with a team on a 4-week web browser
+      application project. While I often work independently, I enjoy
+      collaborating with others and value learning from my peers.
      </p>
      <p>
       When I am not programming, I spend time playing guitar, going to the gym,
@@ -56,6 +58,7 @@ export default function About() {
      </p>
     </div>
    </div>
+
    <div className="w-full flex items-center justify-center">
     <TechnologiesLogo />
    </div>
