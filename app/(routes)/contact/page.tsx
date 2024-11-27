@@ -39,8 +39,8 @@ export default function Contact() {
          <LinkedinIcon />
         </div>
        }
-       text="linkedin.com/in/jakub-bartoszek"
-       href="https://www.linkedin.com/in/jakub-bartoszek"
+       text="linkedin.com/in/jbartoszek-dev"
+       href="https://www.linkedin.com/in/jbartoszek-dev"
       />
       <ContactItem
        icon={
