@@ -4,6 +4,7 @@ export const skills = [
   skills: [
    "React.js",
    "Next.js",
+   "Angular",
    "JavaScript ESNext",
    "TypeScript",
    "React Hooks",
@@ -13,7 +14,8 @@ export const skills = [
    "SASS",
    "CSS BEM convention",
    "CSS Grid",
-   "CSS Flexbox"
+   "CSS Flexbox",
+   "Debounce/Throttle"
   ]
  },
  {
@@ -27,7 +29,7 @@ export const skills = [
  {
   section: "Data Management",
   skills: [
-   "Working with API (fetch, axios)",
+   "Working with APIs (fetch, axios)",
    "Promises, Async/Await",
    "Error handling",
    "Database management",
@@ -38,21 +40,29 @@ export const skills = [
  },
  {
   section: "Testing & Quality Assurance",
-  skills: ["Cypress", "Jest", "Debounce/Throttle"]
+  skills: ["Cypress", "Jest"]
  },
  {
   section: "Version Control & Project Management",
-  skills: ["Git", "GitHub Pull Requests & Review", "Trello", "Scrum", "NPM"]
+  skills: [
+   "Git",
+   "GitHub Pull Requests & Review",
+   "Trello",
+   "Scrum",
+   "NPM",
+   "Markdown"
+  ]
  },
  {
   section: "Design Tools",
   skills: ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"]
  },
  {
-  section: "Other Skills",
+  section: "Soft Skills",
   skills: [
    "Teamwork",
-   "Markdown",
+   "Independence",
+   "Creativity",
    "Semantic & accessible HTML",
    "Responsive Web Design"
   ]
